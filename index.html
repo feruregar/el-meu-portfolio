@@ -1,0 +1,257 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#101a2b">
+  <meta name="description" content="Portfolio personal de desarrollo web. Proyectos, habilidades e información de contacto.">
+  <title>Tu nombre | Desarrollo web</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#contingut">Ir al contenido principal</a>
+
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="#inici" aria-label="Tu nombre, inicio">
+        <span class="brand-mark" aria-hidden="true">EN</span>
+        <span>Tu nombre<span class="brand-dot">.</span></span>
+      </a>
+
+      <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="site-nav" aria-label="Abrir el menú">
+        <span></span><span></span>
+      </button>
+
+      <nav class="site-nav" id="site-nav" aria-label="Navegación principal">
+        <a href="#sobre-mi">Sobre mí</a>
+        <a href="#formacio">Formación</a>
+        <a href="#habilitats">Habilidades</a>
+        <a href="#experiencia">Experiencia</a>
+        <a href="#projectes">Proyectos</a>
+        <a class="nav-contact" href="#contacte">Contacto <span aria-hidden="true">↗</span></a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="contingut">
+    <section class="hero section-shell" id="inici" aria-labelledby="hero-title">
+      <div class="container hero-grid">
+        <div class="hero-copy reveal">
+          <p class="eyebrow"><span class="status-dot"></span> Estudiante de desarrollo web</p>
+          <h1 id="hero-title">Diseño y construyo<br><span class="text-accent">experiencias web</span><br>con intención.</h1>
+          <p class="hero-intro">Soy <strong>Tu nombre</strong>, una persona curiosa a la que le gusta convertir ideas en webs accesibles, útiles y agradables de usar.</p>
+          <div class="hero-actions">
+            <a class="button button-primary" href="#projectes">Explora mis proyectos <span aria-hidden="true">↘</span></a>
+            <a class="text-link" href="#contacte">¿Hablamos? <span aria-hidden="true">↗</span></a>
+          </div>
+          <p class="availability"><span aria-hidden="true">✳</span> Abierto/a a prácticas y nuevos retos</p>
+        </div>
+
+        <div class="hero-art reveal" aria-label="Ilustración decorativa de una ventana de código">
+          <div class="orbit orbit-one"></div>
+          <div class="orbit orbit-two"></div>
+          <div class="code-window">
+            <div class="window-bar"><span></span><span></span><span></span><small>el-meu-espai.web</small></div>
+            <div class="code-content" aria-hidden="true">
+              <p><span class="code-muted">01</span> <span class="code-purple">const</span> <span class="code-blue">pasion</span> =</p>
+              <p><span class="code-muted">02</span> &nbsp;<span class="code-green">"crear cosas útiles"</span>;</p>
+              <p class="code-gap"><span class="code-muted">03</span> </p>
+              <p><span class="code-muted">04</span> <span class="code-purple">function</span> <span class="code-yellow">crearWeb</span>() {</p>
+              <p><span class="code-muted">05</span> &nbsp;<span class="code-purple">return</span> <span class="code-blue">creatividad</span> +</p>
+              <p><span class="code-muted">06</span> &nbsp;&nbsp;&nbsp;&nbsp;<span class="code-green">codigo</span>;</p>
+              <p><span class="code-muted">07</span> }</p>
+            </div>
+            <div class="window-footer"><span class="status-dot"></span> aprendiendo y construyendo</div>
+          </div>
+          <div class="floating-note note-top"><span>✦</span> Diseño con propósito</div>
+          <div class="floating-note note-bottom"><span>◎</span> Código con cuidado</div>
+        </div>
+      </div>
+      <a class="scroll-cue" href="#sobre-mi"><span>Desplázate</span><span aria-hidden="true">↓</span></a>
+    </section>
+
+    <section class="section section-light" id="sobre-mi" aria-labelledby="about-title">
+      <div class="container about-grid">
+        <div class="section-heading reveal">
+          <p class="eyebrow">01 / Sobre mí</p>
+          <h2 id="about-title">Curiosidad por dentro.<br><span class="text-accent">Código por fuera.</span></h2>
+        </div>
+        <div class="about-content reveal">
+          <p class="about-lead">Me gusta entender cómo funcionan las cosas y encontrar formas sencillas de mejorarlas.</p>
+          <p>Estoy formándome en desarrollo web y cada proyecto es una oportunidad para aprender, probar ideas y cuidar los detalles. Me interesa especialmente crear experiencias claras y accesibles que funcionen bien en cualquier pantalla.</p>
+          <div class="about-facts">
+            <div><strong>01</strong><span>Aprendizaje constante</span></div>
+            <div><strong>02</strong><span>Atención al detalle</span></div>
+            <div><strong>03</strong><span>Trabajo en equipo</span></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section-dark" id="formacio" aria-labelledby="education-title">
+      <div class="container">
+        <div class="section-heading section-heading-centered reveal">
+          <p class="eyebrow">02 / Formación</p>
+          <h2 id="education-title">Aprendizaje en <span class="text-accent">marcha.</span></h2>
+          <p>Una base sólida para seguir creciendo en el mundo digital.</p>
+        </div>
+        <div class="timeline">
+          <article class="timeline-item reveal">
+            <span class="timeline-marker" aria-hidden="true"></span>
+            <div class="timeline-date">2024 — Actualidad</div>
+            <div class="timeline-card">
+              <p class="card-kicker">Formación actual</p>
+              <h3>Ciclo formativo de desarrollo web</h3>
+              <p>Nombre del centro · Ciudad</p>
+              <div class="tag-list"><span>HTML y CSS</span><span>JavaScript</span><span>Bases de datos</span></div>
+            </div>
+          </article>
+          <article class="timeline-item reveal">
+            <span class="timeline-marker" aria-hidden="true"></span>
+            <div class="timeline-date">2022 — 2024</div>
+            <div class="timeline-card">
+              <p class="card-kicker">Formación previa</p>
+              <h3>Estudios previos o formación complementaria</h3>
+              <p>Nombre del centro · Ciudad</p>
+              <div class="tag-list"><span>Comunicación</span><span>Resolución de problemas</span></div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section-light" id="habilitats" aria-labelledby="skills-title">
+      <div class="container">
+        <div class="section-heading reveal">
+          <p class="eyebrow">03 / Habilidades</p>
+          <h2 id="skills-title">Herramientas para <span class="text-accent">hacerlo realidad.</span></h2>
+          <p>Las tecnologías y cualidades que aporto a cada proyecto.</p>
+        </div>
+        <div class="skills-grid">
+          <article class="skill-card reveal">
+            <div class="skill-icon" aria-hidden="true">&lt;/&gt;</div>
+            <h3>Técnicas</h3>
+            <p>Fundamentos que utilizo para crear y dar vida a proyectos web.</p>
+            <div class="tag-list tag-list-light"><span>HTML5</span><span>CSS3</span><span>JavaScript</span><span>Diseño adaptable</span><span>Git y GitHub</span><span>Figma</span></div>
+          </article>
+          <article class="skill-card skill-card-accent reveal">
+            <div class="skill-icon" aria-hidden="true">✳</div>
+            <h3>Personales</h3>
+            <p>La forma de trabajar también forma parte del resultado.</p>
+            <div class="tag-list tag-list-light"><span>Trabajo en equipo</span><span>Comunicación</span><span>Organización</span><span>Creatividad</span><span>Aprendizaje activo</span><span>Resolución de problemas</span></div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section-muted" id="experiencia" aria-labelledby="experience-title">
+      <div class="container experience-grid">
+        <div class="section-heading reveal">
+          <p class="eyebrow">04 / Experiencia</p>
+          <h2 id="experience-title">Aprender también es <span class="text-accent">hacer.</span></h2>
+          <p>Experiencia adquirida en proyectos formativos, personales y colaborativos.</p>
+        </div>
+        <div class="experience-list">
+          <article class="experience-item reveal">
+            <span class="experience-number">01</span>
+            <div><p class="card-kicker">Proyectos académicos · 2024 — Actualidad</p><h3>Desarrollo de proyectos web</h3><p>Diseño e implementación de páginas adaptables con HTML, CSS y JavaScript, desde la estructura inicial hasta los últimos detalles visuales.</p></div>
+          </article>
+          <article class="experience-item reveal">
+            <span class="experience-number">02</span>
+            <div><p class="card-kicker">Proyecto personal · 2025</p><h3>Práctica y experimentación</h3><p>Creación de pequeñas aplicaciones y prototipos para practicar nuevas herramientas, mejorar el código y poner en práctica los conocimientos adquiridos.</p></div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section-dark projects-section" id="projectes" aria-labelledby="projects-title">
+      <div class="container">
+        <div class="projects-heading reveal">
+          <div class="section-heading">
+            <p class="eyebrow">05 / Proyectos</p>
+            <h2 id="projects-title">Ideas que ya <span class="text-accent">tienen forma.</span></h2>
+          </div>
+          <p>Una selección de proyectos. Sustituye los ejemplos por tus trabajos reales.</p>
+        </div>
+        <div class="projects-grid">
+          <article class="project-card project-featured reveal">
+            <div class="project-visual visual-dashboard" aria-hidden="true">
+              <div class="mock-browser"><span></span><span></span><span></span></div>
+              <div class="dashboard-preview"><div class="preview-sidebar"></div><div class="preview-main"><i></i><i></i><div class="preview-chart"></div></div></div>
+              <span class="visual-label">01 / Aplicación web</span>
+            </div>
+            <div class="project-info">
+              <div><p class="card-kicker">Proyecto de ejemplo</p><h3>Panel de organización</h3></div>
+              <a class="project-link" href="https://github.com/" target="_blank" rel="noreferrer" aria-label="Ver el código del Panel de organización en GitHub">↗</a>
+              <p>Una interfaz clara para gestionar tareas, prioridades y objetivos diarios en un solo lugar.</p>
+              <div class="tag-list"><span>HTML</span><span>CSS</span><span>JavaScript</span></div>
+            </div>
+          </article>
+          <article class="project-card reveal">
+            <div class="project-visual visual-store" aria-hidden="true">
+              <div class="store-preview"><div class="store-nav"></div><div class="store-copy"><i></i><i></i><b></b></div><div class="store-product"></div></div>
+              <span class="visual-label">02 / Comercio electrónico</span>
+            </div>
+            <div class="project-info">
+              <div><p class="card-kicker">Proyecto de ejemplo</p><h3>Tienda local</h3></div>
+              <a class="project-link" href="https://github.com/" target="_blank" rel="noreferrer" aria-label="Ver el código de Tienda local en GitHub">↗</a>
+              <p>Propuesta de tienda digital con una experiencia de compra sencilla y centrada en el producto.</p>
+              <div class="tag-list"><span>Diseño adaptable</span><span>Diseño de interfaz</span><span>CSS</span></div>
+            </div>
+          </article>
+          <article class="project-card reveal">
+            <div class="project-visual visual-mobile" aria-hidden="true">
+              <div class="phone-preview"><div class="phone-notch"></div><div class="phone-inner"><i></i><i></i><b></b><span></span><span></span><span></span></div></div>
+              <span class="visual-label">03 / Aplicación</span>
+            </div>
+            <div class="project-info">
+              <div><p class="card-kicker">Proyecto de ejemplo</p><h3>Agenda de bienestar</h3></div>
+              <a class="project-link" href="https://github.com/" target="_blank" rel="noreferrer" aria-label="Ver el código de Agenda de bienestar en GitHub">↗</a>
+              <p>Una aplicación conceptual para crear rutinas y seguir hábitos saludables a tu ritmo.</p>
+              <div class="tag-list"><span>JavaScript</span><span>Accessibilitat</span><span>UX</span></div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section contact-section" id="contacte" aria-labelledby="contact-title">
+      <div class="container contact-grid">
+        <div class="contact-copy reveal">
+          <p class="eyebrow">06 / Contacto</p>
+          <h2 id="contact-title">Hagamos que pase<br><span class="text-accent">algo bueno.</span></h2>
+          <p>Si tienes una oportunidad, una idea o simplemente quieres saludar, estaré encantado/a de leerte.</p>
+          <a class="contact-email" href="mailto:hola@exemple.cat">hola@exemple.cat <span aria-hidden="true">↗</span></a>
+          <div class="social-links">
+            <a href="https://github.com/" target="_blank" rel="noreferrer">GitHub <span aria-hidden="true">↗</span></a>
+            <a href="https://www.linkedin.com/" target="_blank" rel="noreferrer">LinkedIn <span aria-hidden="true">↗</span></a>
+          </div>
+        </div>
+        <form class="contact-form reveal" id="contact-form">
+          <p class="form-heading">Envíame un mensaje</p>
+          <label for="name">Nombre</label>
+          <input id="name" name="name" type="text" autocomplete="name" placeholder="¿Cómo te llamas?" required>
+          <label for="email">Correo electrónico</label>
+          <input id="email" name="email" type="email" autocomplete="email" placeholder="tu@exemple.com" required>
+          <label for="message">Mensaje</label>
+          <textarea id="message" name="message" rows="4" placeholder="¿En qué puedo ayudarte?" required></textarea>
+          <button class="button button-primary form-submit" type="submit">Preparar mensaje <span aria-hidden="true">↗</span></button>
+          <p class="form-note" id="form-status" role="status" aria-live="polite">Se abrirá tu gestor de correo para enviarlo.</p>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <a class="brand footer-brand" href="#inici"><span class="brand-mark" aria-hidden="true">TN</span><span>Tu nombre<span class="brand-dot">.</span></span></a>
+      <p>Hecho con curiosidad. <span aria-hidden="true">©</span> <span id="current-year"></span></p>
+      <a class="back-to-top" href="#inici">Volver al inicio ↑</a>
+    </div>
+  </footer>
+</body>
+</html>
