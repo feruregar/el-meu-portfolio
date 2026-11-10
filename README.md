@@ -23,5 +23,5 @@ Como requisito de la actividad, he introducido las siguientes 3 mejoras sobre la
 3. **Efectos Hover Interactivos:** Sombras dinámicas verde lima/coral en las tarjetas de proyectos.
 
 ## 🔗 Enlace del Proyecto
-- **Web Oficial (GitHub Pages):** [Introduce aquí tu enlace de GitHub Pages]
+- **Web Oficial (GitHub Pages):** https://feruregar.github.io/el-meu-portfolio/
 
